@@ -13,9 +13,9 @@
     </parent>
 
     <groupId>com.ramgovindhare</groupId>
-    <artifactId>cricuitbreakerhystrix</artifactId>
+    <artifactId>circuitbreakerhystrix</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>CricuitBreakerHystrix</name>
+    <name>CircuitBreakerHystrix</name>
 
     <properties>
         <java.version>11</java.version>
