@@ -12,6 +12,7 @@
 
     <modules>
         <module>answer-1</module>
+        <module>answer-2</module>
     </modules>
 
     <properties>

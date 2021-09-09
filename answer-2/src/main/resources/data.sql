@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS PROJECTS;
+
+CREATE TABLE if not exists PROJECTS
+(
+    id       BIGINT AUTO_INCREMENT PRIMARY KEY,
+    license  varchar2 NOT NULL
+);
+
+INSERT INTO projects (id, license) VALUES (1, 'ASF'); VALUES (2, 'NOT_ASF');VALUES (123, 'ASF');
