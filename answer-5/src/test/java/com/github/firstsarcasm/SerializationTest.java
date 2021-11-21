@@ -16,8 +16,11 @@ public class SerializationTest {
 		Date date = new Date(1637493733644L);
 		User user = new User("user", date);
 		String userJson = objectMapper.writeValueAsString(user);
-		assertEquals("{\"id\":null,\"name\":\"user\",\"date\":\"2021-11-21\"}", userJson);
+		assertEquals("{\"name\":\"user\",\"date\":\"2021-11-21\"}", userJson);
 		assertEquals("Sun Nov 21 14:22:13 MSK 2021", user.date.toString());
+		user.date.setTime(0);
+		user.date.setHours(0);
+		System.out.println(user.date);
 	}
 
 }
